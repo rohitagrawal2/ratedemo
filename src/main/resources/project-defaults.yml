@@ -1,0 +1,12 @@
+swarm:
+  datasources:
+    data-sources:
+      MyPU:
+        driver-name: mysql
+        connection-url: jdbc:mysql://ratedemo-217905:asia-south1:ratedemo-db/demo
+        user-name: root
+        password: gcp123
+        valid-connection-checker-class-name: org.jboss.jca.adapters.jdbc.extensions.mysql.MySQLValidConnectionChecker
+        validate-on-match: true
+        background-validation: false
+        exception-sorter-class-name: org.jboss.jca.adapters.jdbc.extensions.mysql.MySQLExceptionSorter
